@@ -40,8 +40,8 @@
 
 * Experience:
 
-                 **Company**                                            **Position**                        **Period**
---------------------------------------------------------|:--------------------------------------:|:---------------------------:
+                 **Company**                            |               **Position**             |           **Period**
+--------------------------------------------------------|:--------------------------------------:|:---------------------------
 Film special effects company                            | chemical technologist for the project  | July 2020 - August 2020
 Car cosmetics company "Notress"                         | chemical technologist for the project  | August 2020 - September 2020
 Company for the production of cosmetics "Orthocosmetics"|            junior chemist              | September 2020 - March 2021
@@ -53,8 +53,8 @@ Center for Children's Creativity "Malachite"            |        Early Childhood
 
 
 * Education:
-+ *Chemical technologist of perfumery and cosmetic products, biologically active substances and colorants* A.N. Kosygin Russian State University 2016-2020
-+ *Additional education teacher for children and adults* Moscow Academy of Professional Competencies 2021
+- *Chemical technologist of perfumery and cosmetic products, biologically active substances and colorants* A.N. Kosygin Russian State University 2016-2020
+- *Additional education teacher for children and adults* Moscow Academy of Professional Competencies 2021
 
 
 ******************
