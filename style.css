@@ -1,87 +1,192 @@
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+/*------------------------- Header ----------------------------*/
 .header{
-    width: 1500px;
+    width: 1000px;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     position: relative;
     overflow: hidden;
     align-items: flex-start;
-    background-color: rgb(134, 170, 238);;
-
+    background-color: rgba(104, 3, 3, 0.87);
 }
 .headerfoto {
-    width: 20%;
+    width: 30%;
     text-align: center;
 }
 
 .photo {
-    width: 150px;
-}
-.headertext {
-    width:80%;
-text-align: center;
-padding-top: 70px;
+    border-radius: 60%;
+    width: 100%;
+    top: 10px;
+    object-fit: cover;
+    border: 10px solid rgba(255, 228, 225);
+    margin: 30px 10px;
 }
 
+.headertext {
+    width: 65%;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 70px;
+    font-family: OCR A Std, monospace;
+    color: rgba(255, 228, 225);
+}
+
+.nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    text-decoration: none;
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 228, 225);
+}
+
+.nav-item {
+    float: right;
+    color: rgba(255, 228, 225);
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.nav-item :hover {
+    background-color:  rgba(236, 106, 106, 0.822);
+}
+
+/*------------------------- Main ----------------------------*/
+
 .main {
-    width: 1500px;
+    width: 1000px;
     padding: 0 0;
     margin: 0 auto;
     display: flex;
     position: relative;
     overflow: hidden;
-    align-items: flex-start;  
-    background-color: rgb(142, 224, 245);
+    align-items: flex-start; 
+    background-color: rgba(236, 106, 106, 0.822);
+    color: rgba(255, 228, 225);
 }
 
 .maint {
-    font-size: 25px;
-    font-style: oblique;
-}
-.mainZ{
-    text-align: left; 
+    width: 35%;
+    text-align: left;
     padding-left: 10%;
     font-size: 25px;
-    font-style: oblique;
+    font-family: OCR A Std, monospace;
+}
+
+.logo {
+    width: 20px;
+    margin: 0 5px;
+    padding-bottom: 0;
+    border: 0;
+    border-radius: 70%;
+    padding-top: 2px;
+}
+
+.p{
+    color: rgba(255, 228, 225);
+}
+
+.mainZ{
+    width: 65%;
+    text-align: left; 
+    padding-left: 2%;
+    font-size: 25px;
+    font-family: OCR A Std, monospace;
 }
 
 .section {
+    width: 35%;
+    height: 100%;
     flex-flow: column wrap;
+    padding-left: 20%;
     padding: 15px;
 }
 
 .sectionA {
-    text-align: left; 
-    padding-left: 10%;
-    background-color: rgb(142, 224, 245);
+    width: 65%;
+    height: 60%;
+    flex-flow: column wrap;
+    padding-left: 20%;
+    padding: 15px;
+    background-color: rgba(179, 90, 90, 0.822);
 }
 
 table {
-    padding-left: 10%;
+    padding-left: 1%;
 
 }
 
 td {
-    border: 2px solid black ;
-    padding: 20px 20px;
+    border: 3px solid rgb(94, 1, 1) ;
+    padding: 15px 15px;
 
 }
 
-.footer { 
+.code {
+    background-color: rgba(110, 9, 9, 0.822);
+    font-family: Bradley Hand, cursive;
+    font-size: 17px;
+    padding-right: 10%;
+    border: 5px rgb(94, 1, 1);
+    border-radius: 15px;
+}
+
+/*------------------------- Footer ----------------------------*/
+
+.footer {
     display: flex;
-    width: 1500px;
+    width: 1000px;
     margin: 0 auto;
-    background-color: rgb(134, 170, 238);
+    background-color: rgba(104, 3, 3, 0.87);
     padding: 10px 0;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: space-between;
     align-content: space-between;
     
 }
-.footerhub {
-    width: 30px;
-    margin: 0 10px;
+
+.git {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    margin: 0px;
 }
+
+
+.github {
+    width: 40px;
+    margin: 0 5px;
+    padding-bottom: 0;
+    color: rgba(255, 228, 225);
+}
+
+.words {
+    color:rgba(255, 228, 225);
+    text-decoration: none; 
+    margin: 0;
+}
+
 .footerimage {
-    width: 90px;
+    width: 80px;
     margin: 0 10px;
 }
