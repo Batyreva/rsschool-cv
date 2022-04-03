@@ -70,3 +70,84 @@ a {
 .nav-item :hover {
     background-color:  rgba(236, 106, 106, 0.822);
 }
+
+/*------------------------- Main ----------------------------*/
+
+.main {
+    width: 1000px;
+    padding: 0 0;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: flex-start; 
+    background-color: rgba(236, 106, 106, 0.822);
+    color: rgba(255, 228, 225);
+}
+
+.maint {
+    width: 35%;
+    text-align: left;
+    padding-left: 10%;
+    font-size: 25px;
+    font-family: OCR A Std, monospace;
+}
+
+.logo {
+    width: 20px;
+    margin: 0 5px;
+    padding-bottom: 0;
+    border: 0;
+    border-radius: 70%;
+    padding-top: 2px;
+}
+
+.p{
+    color: rgba(255, 228, 225);
+}
+
+.mainZ{
+    width: 65%;
+    text-align: left; 
+    padding-left: 2%;
+    font-size: 25px;
+    font-family: OCR A Std, monospace;
+}
+
+.section {
+    width: 35%;
+    height: 100%;
+    flex-flow: column wrap;
+    padding-left: 20%;
+    padding: 15px;
+}
+
+.sectionA {
+    width: 65%;
+    height: 60%;
+    flex-flow: column wrap;
+    padding-left: 20%;
+    padding: 15px;
+    background-color: rgba(179, 90, 90, 0.822);
+}
+
+table {
+    padding-left: 1%;
+
+}
+
+td {
+    border: 3px solid rgb(94, 1, 1) ;
+    padding: 15px 15px;
+
+}
+
+.code {
+    background-color: rgba(110, 9, 9, 0.822);
+    font-family: Bradley Hand, cursive;
+    font-size: 17px;
+    padding-right: 10%;
+    border: 5px rgb(94, 1, 1);
+    border-radius: 15px;
+}
+
